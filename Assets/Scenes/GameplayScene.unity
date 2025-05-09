@@ -26,18 +26,18 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 0
-  m_DefaultReflectionResolution: 128
+  m_DefaultReflectionResolution: 256
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 0}
+  m_Sun: {fileID: 811238344}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -96,8 +96,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: b7daa8797ffbe0f439c93c905587e836, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 057c7c6b516bd294da7cd6f77b081f3c, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -362,6 +362,7 @@ MonoBehaviour:
     m_Bits: 1
   _updateType: 0
   _overlapCacheSize: 16
+  CurrentTargets: []
 --- !u!1 &811238343
 GameObject:
   m_ObjectHideFlags: 0
@@ -390,7 +391,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.98607916, b: 0.9481132, a: 1}
+  m_Color: {r: 1, g: 0.92222226, b: 0.75, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -986,6 +987,7 @@ MonoBehaviour:
     m_Bits: 1024
   _updateType: 1
   _overlapCacheSize: 32
+  CurrentTargets: []
 --- !u!65 &1774567509
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -63,8 +63,6 @@ public class RoadConstructor : MonoBehaviour
     {
         if (!segment || !_roadSegments.Contains(segment)) return;
         
-        Debug.Log($"EXIT: {segment}");
-        
         var oldRoad = _roadSegments.Dequeue();
         if (oldRoad != segment) throw new Exception("ERROR!");
         Destroy(oldRoad.gameObject);
