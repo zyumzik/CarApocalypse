@@ -23,7 +23,7 @@ The player controls the rotation of a turret mounted on a car that moves forward
 The project follows **clean architecture principles** and emphasizes **scalability and maintainability** through modular code.
 
 ### Key Technologies:
-- **Unity 2022.3.33*** LTS
+- **Unity 2022.3.33** LTS
 - **Zenject** – Dependency Injection and modular bindings
 - **UniTask** – Lightweight async operations
 - **Multi-scene setup** – Separate `Gameplay`, `UI`, and `Environment` scenes
