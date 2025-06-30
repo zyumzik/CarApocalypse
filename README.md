@@ -34,7 +34,7 @@ The project follows **clean architecture principles** and emphasizes **scalabili
 ---
 
 ### Gameplay Video
-![Gameplay Video](Recordings/GameplayVideo.mp4)
+![Gameplay Video](Screenshots/GameplayVideo.mp4)
 
 ### Gameplay Screenshots
 
