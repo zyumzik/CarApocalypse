@@ -30,10 +30,11 @@ The project follows **clean architecture principles** and emphasizes **scalabili
 - **ScriptableObjects** – For configuration (vehicle, enemy, level)
 - **Custom State Machine** – Game state management
 - **Pooling System** – Bullets and enemy objects reuse
-- **Event-driven architecture** – Using custom events and observer pattern
-- **Camera system** – Dynamic transitions between static and follow view
 
 ---
+
+### Gameplay Video
+![Gameplay Video](Recordings/GameplayVideo.mp4)
 
 ### Gameplay Screenshots
 
