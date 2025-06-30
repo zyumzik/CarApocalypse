@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1655823e907948eaa678f710f39ad808, type: 3}
   m_Name: RaceConfiguration
   m_EditorClassIdentifier: 
-  _raceDistance: 150
+  _raceDistance: 100

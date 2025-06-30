@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: EnemyConfiguration
   m_EditorClassIdentifier: 
   _maxHealth: 100
-  _damage: 10
+  _damage: 20
   _killItselfDistance: 2
   _isHitDuration: 1
-  _movementSpeed: 4.5
-  _rotationSpeed: 225
+  _movementSpeed: 5
+  _rotationSpeed: 240
