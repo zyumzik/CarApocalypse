@@ -7,7 +7,7 @@ This project was developed within 1 week
 
 ## Gameplay Overview
 
-The player controls the rotation of a turret mounted on a car that moves forward automatically. Enemies are positioned along the track in idle state, and start running toward the car once it gets close. The goal is to **eliminate as many enemies as possible** while keeping the car alive until the end of the level.
+The player controls the rotation of a turret mounted on a car that moves forward automatically. Enemies are positioned along the track in idle state, and start running toward the car once it gets close. The goal is to finish the race while keeping the car alive.
 
 **Gameplay flow:**
 - The game starts with a static camera looking at the idle car.
@@ -23,7 +23,7 @@ The player controls the rotation of a turret mounted on a car that moves forward
 The project follows **clean architecture principles** and emphasizes **scalability and maintainability** through modular code.
 
 ### Key Technologies:
-- **Unity 2022.3.\*** LTS
+- **Unity 2022.3.33*** LTS
 - **Zenject** – Dependency Injection and modular bindings
 - **UniTask** – Lightweight async operations
 - **Multi-scene setup** – Separate `Gameplay`, `UI`, and `Environment` scenes
